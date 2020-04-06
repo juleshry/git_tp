@@ -8,7 +8,7 @@ import ricm3.filesys.IDirectory;
 import ricm3.filesys.IFile;
 
 public class TestSuite {
-
+	
   static void ensure(boolean cond) {
     if (!cond)
       throw new AssertionError();

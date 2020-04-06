@@ -20,14 +20,12 @@ package ricm3.filesys.oop;
 import java.io.IOException;
 
 import edu.polytech.ricm.oop.collections.ICollection;
-import edu.polytech.ricm.oop.collections.LinkedList;
 import edu.polytech.ricm.oop.collections.ICollection.Iterator;
+import edu.polytech.ricm.oop.collections.LinkedList;
 import ricm3.filesys.FSException;
 import ricm3.filesys.IDirectory;
 import ricm3.filesys.IFile;
 import ricm3.filesys.IFileSystem;
-import ricm3.filesys.oop.ramfs.RamDirectory;
-import ricm3.filesys.oop.ramfs.RamFile;
 
 public abstract class Directory extends Node implements IDirectory {
 

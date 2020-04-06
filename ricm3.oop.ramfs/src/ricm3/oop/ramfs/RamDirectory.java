@@ -15,7 +15,7 @@
  *  Created on: November, 2017
  *      Author: Pr. Olivier Gruber <olivier dot gruber at acm dot org>
  */
-package ricm3.filesys.oop.ramfs;
+package ricm3.oop.ramfs;
 
 import edu.polytech.ricm.oop.collections.LinkedList;
 
